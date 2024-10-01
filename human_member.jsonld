@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "name": "https://schema.org/name",
+        "description": "https://schema.org/description",
+        "identifier": "https://schema.org/identifier",
+        "image": {
+            "@id": "https://schema.org/image",
+            "@type": "@id"
+        },
+        "HumanMember": {
+            "@id": "https://schema.org/",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "schema": "https://schema.org/",
+                "name": "schema:name",
+                "description": "schema:description",
+                "issuer": {
+                    "@id": "schema:Organization",
+                    "@context": {
+                        "@version": 1.1,
+                        "@protected": true,
+                        "name": "schema:name",
+                        "logo": "schema:logo",
+                        "banner": "schema:banner",
+                        "backgroundColor": "schema:backgroundColor",
+                        "textColor": "schema:textColor"
+                    }
+                },
+                "credentialSubject": {
+                    "@id": "https://schema.org/Person",
+                    "@context": {
+                        "@version": 1.1,
+                        "@protected": true,
+                        "givenName": "schema:givenName",
+                        "familyName": "schema:familyName",
+                        "email": "schema:email",
+                        "telephone": "schema:telephone",
+                        "affiliation": "schema:affiliation",
+                        "memberId": "schema:identifier",
+                        "coins": "schema:additionalType",
+                        "certificates": "schema:additionalType",
+                        "verificationLevel": "schema:additionalType",
+                        "region": "schema:address"
+                    }
+                }
+            }
+        }
+    }
+}
