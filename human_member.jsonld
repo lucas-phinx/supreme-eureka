@@ -1,18 +1,21 @@
 {
     "@context": {
         "@version": 1.1,
+        "@protected": true,
         "id": "@id",
         "type": "@type",
         "HumanMember": {
             "@id": "https://schema.org/",
             "@context": {
                 "@version": 1.1,
+                "@protected": true,
                 "id": "@id",
                 "type": "@type",
                 "issuer": {
                     "@id": "schema:Organization",
                     "@context": {
                         "@version": 1.1,
+                        "@protected": true,
                         "name": "schema:name",
                         "logo": "schema:logo",
                         "banner": "schema:banner",
