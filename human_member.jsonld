@@ -11,9 +11,6 @@
                 "@protected": true,
                 "id": "@id",
                 "type": "@type",
-                "schema": "https://schema.org/",
-                "name": "schema:name",
-                "description": "schema:description",
                 "issuer": {
                     "@id": "schema:Organization",
                     "@context": {
