@@ -34,6 +34,10 @@
                     "@id": "schema:additionalType",
                     "@type": "@id"
                 },
+                "role": {
+                    "@id": "schema:additionalType",
+                    "@type": "@id"
+                },
                 "region": "schema:address"
             }
         }
