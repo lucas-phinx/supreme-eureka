@@ -11,18 +11,6 @@
                 "@protected": true,
                 "id": "@id",
                 "type": "@type",
-                "issuer": {
-                    "@id": "schema:Organization",
-                    "@context": {
-                        "@version": 1.1,
-                        "@protected": true,
-                        "name": "schema:name",
-                        "logo": "schema:logo",
-                        "banner": "schema:banner",
-                        "backgroundColor": "schema:backgroundColor",
-                        "textColor": "schema:textColor"
-                    }
-                },
                 "givenName": "schema:givenName",
                 "familyName": "schema:familyName",
                 "email": "schema:email",
