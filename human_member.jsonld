@@ -12,16 +12,28 @@
                 "id": "@id",
                 "type": "@type",
                 "schema": "https://schema.org/",
-                "description": "https://schema.org/description",
+                "description": "schema:description",
                 "givenName": "schema:givenName",
                 "familyName": "schema:familyName",
                 "email": "schema:email",
                 "telephone": "schema:telephone",
                 "affiliation": "schema:affiliation",
-                "memberId": "schema:identifier",
-                "coins": "schema:additionalType",
-                "certificates": "schema:additionalType",
-                "verificationLevel": "schema:additionalType",
+                "memberId": {
+                    "@id": "schema:identifier",
+                    "@type": "@id"
+                },
+                "coins": {
+                    "@id": "schema:additionalType",
+                    "@type": "@id"
+                },
+                "certificates": {
+                    "@id": "schema:additionalType",
+                    "@type": "@id"
+                },
+                "verificationLevel": {
+                    "@id": "schema:additionalType",
+                    "@type": "@id"
+                },
                 "region": "schema:address"
             }
         }
