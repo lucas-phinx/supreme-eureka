@@ -4,7 +4,6 @@
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "schema": "https://schema.org/",
         "name": "https://schema.org/name",
         "description": "https://schema.org/description",
         "identifier": "https://schema.org/identifier",
