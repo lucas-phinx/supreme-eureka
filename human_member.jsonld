@@ -11,6 +11,8 @@
                 "@protected": true,
                 "id": "@id",
                 "type": "@type",
+                "schema": "https://schema.org/",
+                "description": "https://schema.org/description",
                 "givenName": "schema:givenName",
                 "familyName": "schema:familyName",
                 "email": "schema:email",
