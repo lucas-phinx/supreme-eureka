@@ -1,14 +1,14 @@
 {
     "@context": {
         "@version": 1.1,
-        "@protected": true,
+        "@protected": false,
         "id": "@id",
         "type": "@type",
         "HumanMember": {
             "@id": "https://schema.org/",
             "@context": {
                 "@version": 1.1,
-                "@protected": true,
+                "@protected": false,
                 "id": "@id",
                 "type": "@type",
                 "issuer": {
@@ -23,23 +23,16 @@
                         "textColor": "schema:textColor"
                     }
                 },
-                "credentialSubject": {
-                    "@id": "https://schema.org/Person",
-                    "@context": {
-                        "@version": 1.1,
-                        "@protected": true,
-                        "givenName": "schema:givenName",
-                        "familyName": "schema:familyName",
-                        "email": "schema:email",
-                        "telephone": "schema:telephone",
-                        "affiliation": "schema:affiliation",
-                        "memberId": "schema:identifier",
-                        "coins": "schema:additionalType",
-                        "certificates": "schema:additionalType",
-                        "verificationLevel": "schema:additionalType",
-                        "region": "schema:address"
-                    }
-                }
+                "givenName": "schema:givenName",
+                "familyName": "schema:familyName",
+                "email": "schema:email",
+                "telephone": "schema:telephone",
+                "affiliation": "schema:affiliation",
+                "memberId": "schema:identifier",
+                "coins": "schema:additionalType",
+                "certificates": "schema:additionalType",
+                "verificationLevel": "schema:additionalType",
+                "region": "schema:address"
             }
         }
     }
